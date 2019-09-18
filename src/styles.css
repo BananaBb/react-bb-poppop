@@ -38,7 +38,7 @@
 }
 
 
-.popop_msg .popop .header, .popop_notice .popop .header {
+.popop_msg .popop .popop_header, .popop_notice .popop .popop_header {
 	margin: 0 0 2em; 
 	display: -webkit-flex; /* Safari */
   -webkit-flex-wrap: wrap; /* Safari 6.1+ */
@@ -47,16 +47,16 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.popop_msg .popop .header span, .popop_notice .popop .header span {
+.popop_msg .popop .popop_header span, .popop_notice .popop .popop_header span {
 	font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.35px;
   line-height: 22px;
 }
-.popop_msg .popop .header button, .popop_notice .popop .header button {
+.popop_msg .popop .popop_header button, .popop_notice .popop .popop_header button {
 	border: none;
 }
-.popop_msg .popop .content, .popop_notice .popop .content {
+.popop_msg .popop .popop_content, .popop_notice .popop .popop_content {
 	font-size: 14px;
 	text-align: left;
 }

@@ -13,11 +13,11 @@ export default class BbPopop extends Component {
     return (
       <div className={styles}>
           <div className='popop'>
-            <p className="header">
+            <p className="popop_header">
               <span>{this.props.kind}</span>
               <button onClick={this.props.closePopop}>X</button>
             </p>
-            <div className="content">
+            <div className="popop_content">
               {this.props.children}
             </div>
           </div>
