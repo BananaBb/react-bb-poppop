@@ -1,21 +1,26 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-
 import styles from './styles.css'
 
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
+export default class BbPopop extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
   }
 
   render() {
-    const {
-      text
-    } = this.props
-
+    let styles = (this.props.styles == "message")? "popop_msg" : "popop_notice"
     return (
-      <div className={styles.test}>
-        Example Component: {text}
+      <div className={styles}>
+          <div className='popop'>
+            <p className="header">
+              <span>{this.props.kind}</span>
+              <button onClick={this.props.closePopop}>X</button>
+            </p>
+            <div className="content">
+              {this.props.children}
+            </div>
+          </div>
       </div>
     )
   }

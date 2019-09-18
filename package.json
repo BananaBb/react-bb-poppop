@@ -1,11 +1,21 @@
 {
   "name": "react-bb-poppop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a modulable component to render poppop with some nice features !",
   "author": "BananaBb",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "react-poppop",
+    "poppop",
+    "popup",
+    "alert",
+    "notice",
+    "message"
+  ],
   "repository": "BananaBb/react-bb-poppop",
   "main": "dist/index.js",
+  "style": "dist/styles.css",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
   "engines": {

@@ -1,7 +1,7 @@
-import ExampleComponent from './'
+import BbPopop from './'
 
-describe('ExampleComponent', () => {
+describe('BbPopop', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(BbPopop).toBeTruthy()
   })
 })
